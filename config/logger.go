@@ -26,3 +26,41 @@ func NewLogger(p string) *Logger {
 		writer:  writter,
 	}
 }
+
+func (l *Logger) Debug(v ...interface{}) {
+	l.debug.Println(v...)
+}
+
+func (l *Logger) Info(v ...interface{}) {
+	l.info.Println(v...)
+}
+
+func (l *Logger) Warning(v ...interface{}) {
+	l.warning.Println(v...)
+}
+
+func (l *Logger) Error(v ...interface{}) {
+	l.error.Println(v...)
+}
+
+func (l *Logger) SetWriter(w io.Writer) {
+	l.writer = w
+}
+
+// INFO: Formated Logs
+
+func (l *Logger) Debugf(format string, v ...interface{}) {
+	l.debug.Printf(format, v...)
+}
+
+func (l *Logger) Infof(format string, v ...interface{}) {
+	l.info.Printf(format, v...)
+}
+
+func (l *Logger) Warnf(format string, v ...interface{}) {
+	l.warning.Printf(format, v...)
+}
+
+func (l *Logger) Errorf(format string, v ...interface{}) {
+	l.error.Printf(format, v...)
+}
