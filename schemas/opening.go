@@ -16,7 +16,7 @@ type Openig struct {
 	Remote   bool
 }
 
-type OpenigResponse struct {
+type OpeningResponse struct {
 	CreatedAt time.Time `json:"createdAt"`
 	UpdatedAt time.Time `json:"updatedAt"`
 	DeletedAt time.Time `json:"deteledAt,omitempty"`
