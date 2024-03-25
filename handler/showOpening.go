@@ -30,7 +30,7 @@ func showOpeningHandler(ctx *gin.Context) {
 	opening := schemas.Openig{}
 
 	if err := db.First(&opening, id).Error; err != nil {
-		sendError(ctx, http.StatusNotFound, "Opening not found: "+err.Error())
+		sendError(ctx, http.StatusNotFound, "Opening not found ")
 		return
 	}
 
