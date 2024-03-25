@@ -10,7 +10,7 @@ import (
 
 func setupRoutes(router *gin.Engine) {
 	handler.InitializeHandler()
-	basePath := "api/v1"
+	basePath := "/api/v1"
 
 	docs.SwaggerInfo.BasePath = basePath
 
