@@ -9,7 +9,7 @@ import (
 )
 
 func InitializeSQLite() (*gorm.DB, error) {
-	logger := NewLogger("SQLite")
+	logger := GetLogger("SQLite")
 	dbPath := "./db/main.db"
 
 	_, err := os.Stat(dbPath)
