@@ -19,7 +19,7 @@ import (
 // @Failure 400 {object} ErrorResponse
 // @Failure 404 {object} ErrorResponse
 // @Router /opening [get]
-func showOpeningHandler(ctx *gin.Context) {
+func ShowOpeningHandler(ctx *gin.Context) {
 	id := ctx.Query("id")
 
 	if id == "" {

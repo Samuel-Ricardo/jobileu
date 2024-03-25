@@ -27,7 +27,7 @@ func UpdateOpeningHandler(ctx *gin.Context) {
 
 	if err := db.First(&opening, id).Error; err != nil {
 		sendError(ctx, http.StatusNotFound, "Opening not found")
-	}
+	
 
 	if request.Role != "" {
 		opening.Role = request.Role
