@@ -1,6 +1,9 @@
 package main
 
-import "github.com/Samuel-Ricardo/jobileu/config"
+import (
+	"github.com/Samuel-Ricardo/jobileu/config"
+	"github.com/Samuel-Ricardo/jobileu/router"
+)
 
 var logger *config.Logger
 
@@ -12,4 +15,6 @@ func main() {
 		logger.Errorf("Error initializing config: %v", err)
 		return
 	}
+
+	router.Initialize()
 }
