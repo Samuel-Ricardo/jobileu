@@ -47,7 +47,36 @@
 <h2> | 🛰️ About:  </h2>
 
 <p align="justfy">
-  Jobileu API use the powerfull GO Lang to register Jobs opportunites, i use GIN to build a REST Server and storage data with SQLite, documenting the API with SWAGGER.
+  Jobileu API use the powerfull GO Lang to register Jobs opportunites, i use GIN to build a REST Server and storage data with SQLite, the API documentation use SWAGGER and all Application runs in DOcker Containers
 </p>
 
 <br>
+
+<h2 id="techs">
+| 🏗️ - Technologies and Concepts Studied:
+</h2>
+
+> <a href='https://go.dev/'> <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" /> </a>
+
+<br>
+
+- GO
+- GIN
+- SWAGGER
+- SQLite
+- Docker
+- GORM
+- Logger
+- REST
+- Swagger
+- Validation
+- Error Handler
+
+> Among Others...
+> <br>
+
+#
+
+<h2 id="app">
+  💻 | Application:
+</h2>
