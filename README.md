@@ -2,7 +2,7 @@
 
 <p align="center"> 
   <a href="https://go.dev/" target="_blank">
-    <img width="80%" src="https://granulate.io/wp-content/uploads/2021/02/Golang-Performance-563x464-1.png"/>
+    <img width="80%" src="https://blog.materialize.pro/wp-content/uploads/2021/10/GOLANG.png"/>
   </a> 
 </p>
 
@@ -79,4 +79,28 @@
 
 <h2 id="app">
   💻 | Application:
+</h2>
+
+<img src="https://www.split.io/wp-content/uploads/go-sdk-blog.jpg"/>
+
+<br>
+
+<p>
+  You can submit a new Job opportunities, search or delete a specific job, update a job data and list all jobs and data schemas to standardize requests, improving resilience.
+</p>
+
+<p>
+  With SQLite i storage data locally and use GORM to communicate with database, the ambient is containerized with Docker and the Application is documented with SWAGGER.
+</p>
+
+<p>
+  I Setup default requests and response that validate data before use case  
+</p>
+
+<br>
+
+#
+
+<h2 id="run-project"> 
+   👨‍💻 | How to use
 </h2>
