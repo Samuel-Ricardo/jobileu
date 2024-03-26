@@ -43,3 +43,11 @@
 <br>
 
 <p id="project"/>
+
+<h2> | 🛰️ About:  </h2>
+
+<p align="justfy">
+  Jobileu API use the powerfull GO Lang to register Jobs opportunites, i use GIN to build a REST Server and storage data with SQLite, documenting the API with SWAGGER.
+</p>
+
+<br>
